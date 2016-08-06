@@ -1,0 +1,7 @@
+[
+  {
+    "company": "1 trick pony",
+    "url": "http://1trickpony.com/jobs/",
+    "query": "div.job-listings>dt a"
+  }
+]
