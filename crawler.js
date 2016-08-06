@@ -2,29 +2,31 @@ var queries = require('./input.json')
 var Nightmare = require('nightmare');
 var nightmare = Nightmare({ show: true })
 
-var query = queries[0].query
 nightmare
-  .goto(queries[0].url)
+  .goto(queries[2].url) // go to JSON specified url
+    .wait(queries[2].query) // wait until CSS selector loads
     .evaluate(function (selector) {
-      var i;
-      data = document.querySelectorAll(selector[0].query)
-      arr = []
+      positionsArr = []
       obj = {}
-      obj.company = selector[0].company
-      nestedArr = []
-      for (i = 0; i < data.length; i++) {
-	  nestedObj = {}
-	  nestedObj.title = data[i].innerText.trim()
-	  nestedObj.url = data[i].href
-	  nestedArr.push(nestedObj)
+      obj.company = selector.company
+      query = document.querySelectorAll(selector.query)
+      link = document.querySelectorAll(selector.link)
+	/* Set query and link equal to all elements with selector
+	itearte through appending text (innerText) from each element
+	with job url to obj*/
+      var i;
+      for (i = 0; i < query.length; i++) {
+	nestedObj = {}
+	nestedObj.title = query[i].innerText.trim()
+	nestedObj.url = link[i].href
+	positionsArr.push(nestedObj)
       }
-      obj.positions = nestedArr
-      arr.push(obj)
-      return arr
-    }, queries)
+      obj.positions = positionsArr
+      return obj
+    }, queries[2])
   .end()
-  .then(function (arr) {
-    console.log(arr[0])
+  .then(function (obj) {
+    console.log(obj)
     console.log('done')
   })
   .catch(function (error) {
