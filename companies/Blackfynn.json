@@ -1,0 +1,8 @@
+[
+  {
+    "company": "Brownstein Group",
+    "url": "http://www.brownsteingroup.com/careers/",
+    "query": ".careers-list a",
+    "link": ".careers-list a"
+  }
+]

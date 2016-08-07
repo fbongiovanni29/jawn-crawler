@@ -1,6 +1,6 @@
 var chalk = require('chalk')
 var async = require ('async')
-var data = require('./input.json')
+var data = require('./companies/blackfynn.json')
 var Nightmare = require('nightmare');
 var nightmare = Nightmare({ show: false })
 
@@ -36,8 +36,8 @@ function crawl(data, cb) {
     }, data)
   .end()
   .then(function (obj) {
-    // console.log(obj)
-    // console.log(chalk.green('run: ' + data.url))
+    console.log(obj)
+    console.log(chalk.green('run: ' + data.url))
     cb()
   })
   .catch(function (error) {
