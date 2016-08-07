@@ -36,8 +36,8 @@ function crawl(data, cb) {
     }, data)
   .end()
   .then(function (obj) {
-    // console.log(obj)
-    // console.log(chalk.green('run: ' + data.url))
+    console.log(obj)
+    console.log(chalk.green('run: ' + data.url))
     cb()
   })
   .catch(function (error) {

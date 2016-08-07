@@ -1,0 +1,9 @@
+[
+  {
+    "company": "Practice",
+    "url": "http://www.practice.xyz/careers/",
+    "locations": ".inner-body :nth-child(1)",
+    "query": ".inner-head h4",
+    "links": ".btn-secondary"
+  }
+]
