@@ -1,8 +1,8 @@
 [
   {
-    "company": "1 trick pony",
+    "company": "1 Trick Pony",
     "url": "http://1trickpony.com/jobs/",
-      "query": "div.job-listings>dt a",
+    "query": "div.job-listings>dt a",
     "link": "div.job-listings>dt a"
   },
   {
@@ -16,5 +16,59 @@
     "url": "http://50onred.com/careers/",
     "query": "div#engineering h3",
     "link": "div#engineering a"
+  },
+  {
+    "company": "Al Día",
+    "url": "http://aldianews.com/pages/careers/34548",
+    "query": ".ng-binding a",
+    "link": ".ng-binding a"
+  },
+  {
+    "company": "Allen & Gerritsen",
+    "url": "http://www.a-g.com/careers/",
+    "query": ".columns+ .columns h4",
+    "link": ".columns+ .columns .dark"
+  },
+  {
+    "company": "Alura Business Solutions",
+    "url": "https://www.alura.com/about.php",
+    "query": "#careers .thin-header",
+    "link": "#careers .btn"
+  },
+  {
+    "company": "Arc Intermedia",
+    "url": "http://www.arcintermedia.com/company/careers/",
+    "query": ".push_one a",
+    "link": ".push_one a"
+  },
+  {
+    "company": "Archer Group",
+    "url": "http://www.archer-group.com/careers.html",
+    "query": "h4>a",
+    "link": "div>small>div:nth-child(3)>a"
+  },
+  {
+    "company": "Arcweb Technologies",
+    "url": "https://arcweb.co/careers/",
+    "query": "#primary li a",
+    "link": "#primary li a"
+  },
+  {
+    "company": "AWeber Communications",
+    "url": "http://www.aweber.jobs/",
+    "query": "td a",
+    "link": "td a"
+  },
+  {
+    "company": "baseklas",
+    "url": "http://baseklas.com/jobs/",
+    "query": "span strong",
+    "link": null
+  },
+  {
+    "company": "Biomeme, Inc.",
+    "url": "http://www.biomeme.com/careers",
+    "query": "a h3",
+    "link": null
   }
 ]
