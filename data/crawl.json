@@ -1,0 +1,52 @@
+[
+  {
+    "company": "1 Trick Pony",
+    "url": "http://1trickpony.com/jobs/",
+    "jobLocation": "hammonton",
+    "query": "div.job-listings>dt a",
+    "link": "div.job-listings>dt a"
+  },
+  {
+    "company": "160over90",
+    "url": "http://160over90.com/careers/",
+    "jobLocation": "philadelphia",
+    "query": ".clearfix~ .col-sm-6+ .col-sm-6 a , .col-sm-6:nth-child(4) a",
+    "link": ".clearfix~ .col-sm-6+ .col-sm-6 a , .col-sm-6:nth-child(4) a"
+  },
+  {
+    "company": "50onRed",
+    "url": "http://50onred.com/careers/",
+    "jobLocation": "philadelphia",
+    "query": "div#engineering h3",
+    "link": "div#engineering a"
+  },
+  {
+    "company": "Al Día",
+    "url": "http://aldianews.com/pages/careers/34548",
+    "jobLocation": "philadelphia",
+    "query": ".ng-binding a",
+    "link": ".ng-binding a"
+  },
+  {
+    "company": "Allen & Gerritsen",
+    "url": "http://www.a-g.com/careers/",
+    "locations": ".columns+ .columns h2",
+    "query": ".columns+ .columns h4",
+    "link": ".columns+ .columns .dark"
+  },
+  {
+    "company": "Alura Business Solutions",
+    "url": "https://www.alura.com/about.php",
+      "jobLocation": "plymouth",
+    "query": "#careers .thin-header",
+    "link": "#careers .btn"
+  },
+  {
+    "company": "AppNexus Inc",
+    "url": "https://appnexus.mycompas.com/corp/consol_careers/careers_source.aspx?ref=http%3a%2f%2fjobjawn.com%2f&jbID=null&extref=null&extu=null&rpid=&uri=www.appnexus.com&webapp=null",
+    "jobLocation": "Philadelphia",
+    "parseLocation": "Philadelphia",
+    "query": "a",
+    "link": "a"
+  },
+]
