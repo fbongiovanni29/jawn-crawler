@@ -30,3 +30,11 @@ Cannot read property 'innerText' of undefined
 BrickSimple LLC
 Error: .wait() timed out after 30000msec
 08/12/2016 10:20:49
+-----------------------------------------------
+Allen & Gerritsen
+Cannot read property 'innerText' of undefined
+08/12/2016 10:26:00
+-----------------------------------------------
+BrickSimple LLC
+Error: .wait() timed out after 30000msec
+08/12/2016 10:26:00
