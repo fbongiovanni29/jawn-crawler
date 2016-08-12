@@ -1,35 +1,53 @@
 [
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Wilmington",
     "remote": false,
     "title": "ACCOUNT EXECUTIVE",
     "url": "https://archergroup.bamboohr.com/jobs/view.php?id=33"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Wilmington",
     "remote": false,
     "title": "FRONT END DEVELOPER",
     "url": "https://archergroup.bamboohr.com/jobs/view.php?id=34"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Wilmington",
     "remote": false,
     "title": "APPLICATION DEVELOPER",
     "url": "https://archergroup.bamboohr.com/jobs/view.php?id=9"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Wilmington",
     "remote": false,
     "title": "SENIOR APPLICATION DEVELOPER",
     "url": "https://archergroup.bamboohr.com/jobs/view.php?id=13"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Wilmington",
     "remote": false,
     "title": "SENIOR SITECORE DEVELOPER",
     "url": "https://archergroup.bamboohr.com/jobs/view.php?id=29"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Wilmington",
     "remote": false,
     "title": "MID-LEVEL UX DESIGNER",

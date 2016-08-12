@@ -16,7 +16,7 @@ function crawl(data, cb) {
   nightmare
     .goto(data.url) // go to JSON specified url
     .wait(data.query) // wait until CSS selector loads
-    .evaluate(function (data) {
+    .evaluate(function (data, dt) {
       arr = []
       // returns text in queried CSS selector
       query = document.querySelectorAll(data.query) // Job title query
@@ -35,10 +35,17 @@ function crawl(data, cb) {
       var i
       for (i = 0; i < query.length - x; i++) {
 	  var obj = new Object()
+	  obj["@context"] = "http://schema.org"
+	  obj["@type"] = "JobPosting"
 	// if location is static or locations attribute contains correct location (e.g string locations contains "Philadelphia" not "San Francisco")
 	if ("locations" in data === false || locations[i].innerText.trim() !== undefined && locations[i].innerText.trim().includes(data.parseLocation)){
 	    obj.title =  query[i].innerText.trim()
 	  // If jobLocation is static (created in input JSON) else add location based on HTML element that contains location
+	  if (data.link !== null) {
+	    obj.url = links[i].href
+	  } else {
+	    obj.url = data.url
+	  }
 	  if ("jobLocation" in data === true) {
 	    obj.jobLocation = data.jobLocation
 	  } else {
@@ -52,14 +59,13 @@ function crawl(data, cb) {
 	  } else {
 	      obj.remote = false
 	  }
+
 	  // if url is picked up by HTML element or is declared in JSON
-	  if (data.link !== null) {
-	    obj.url = links[i].href
-	  } else {
-	    obj.url = data.url
-	  }
 	  arr.push(obj)
 	}
+	var dt = new Date()
+	var dt = dt.getFullYear() + '-' + dt.getMonth() + '-' + dt.getDate()
+	obj.datePosted = dt
       }
       return arr
     }, data)
@@ -73,8 +79,8 @@ function crawl(data, cb) {
       if (err) {
 	console.error(err)
       }
-    })
     console.log(chalk.green('Finished: ' + data.company))
+    })
     cb()
   })
   .catch(function (error) {

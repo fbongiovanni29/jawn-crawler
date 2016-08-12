@@ -1,35 +1,53 @@
 [
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "philadelphia",
     "remote": false,
     "title": "Interactive Project Manager",
     "url": "http://160over90.com/careers?job_id=1146"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "philadelphia",
     "remote": false,
     "title": "Web Developer",
     "url": "http://160over90.com/careers?job_id=1138"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "philadelphia",
     "remote": false,
     "title": "Associate Media Director",
     "url": "http://160over90.com/careers?job_id=1151"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "philadelphia",
     "remote": false,
     "title": "Business Intelligence Manager",
     "url": "http://160over90.com/careers?job_id=1145"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "philadelphia",
     "remote": false,
     "title": "Project Manager",
     "url": "http://160over90.com/careers?job_id=1147"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "philadelphia",
     "remote": false,
     "title": "Producer",

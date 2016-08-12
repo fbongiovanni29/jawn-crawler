@@ -1,11 +1,17 @@
 [
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "hammonton",
     "remote": false,
     "title": "FRONT-END DEVELOPER",
     "url": "http://1trickpony.com/jobs//jobs/front-end-developer"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "hammonton",
     "remote": false,
     "title": "SR. COPYWRITER / CONCEPT LEAD",

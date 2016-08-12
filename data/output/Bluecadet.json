@@ -1,17 +1,26 @@
 [
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Philadelphia",
     "remote": false,
     "title": "Drupal Developer – PHL",
     "url": "http://www.bluecadet.com/careers/drupal-developer/"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Philadelphia",
     "remote": false,
     "title": "Communications Manager & Writer",
     "url": "http://www.bluecadet.com/careers/communications-manager-writer/"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Philadelphia",
     "remote": false,
     "title": "Creative Director – PHL",

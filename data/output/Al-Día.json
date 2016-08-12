@@ -1,35 +1,53 @@
 [
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "philadelphia",
     "remote": false,
     "title": "Entrepreneurial Journalism Training Program",
     "url": "http://aldianews.com/pages/entrepreneurial-journalism-training-program/41144"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "philadelphia",
     "remote": false,
     "title": "Digital Editor",
     "url": "http://aldianews.com/pages/editor/34550"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "philadelphia",
     "remote": false,
     "title": "Multimedia Account Executive",
     "url": "http://aldianews.com/pages/multimedia-account-executive/34575"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "philadelphia",
     "remote": false,
     "title": "Internships",
     "url": "http://aldianews.com/pages/internships/34585"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "philadelphia",
     "remote": false,
     "title": "Content Producer",
     "url": "http://aldianews.com/pages/content-producer/34937"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "philadelphia",
     "remote": false,
     "title": "Web Developer",

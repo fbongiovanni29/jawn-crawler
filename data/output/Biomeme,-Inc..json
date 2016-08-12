@@ -1,11 +1,17 @@
 [
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Philadelphia",
     "remote": false,
     "title": "SENIOR ELECTRICAL ENGINEER",
     "url": "http://www.biomeme.com/careers"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Philadelphia",
     "remote": false,
     "title": "SENIOR MOLECULAR BIOLOGIST",

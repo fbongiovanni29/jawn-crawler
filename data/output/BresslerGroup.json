@@ -1,53 +1,80 @@
 [
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Philadelphia",
     "remote": false,
     "title": "Junior Interaction Designer",
     "url": "http://www.bresslergroup.com/about/#jobs"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Philadelphia",
     "remote": false,
     "title": "Design and Innovation Strategist",
     "url": "http://www.bresslergroup.com/about/#jobs"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Philadelphia",
     "remote": false,
     "title": "User Researcher",
     "url": "http://www.bresslergroup.com/about/#jobs"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Philadelphia",
     "remote": false,
     "title": "Product Development Engineer",
     "url": "http://www.bresslergroup.com/about/#jobs"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Philadelphia",
     "remote": false,
     "title": "Senior Product Development Engineer/Program Manager",
     "url": "http://www.bresslergroup.com/about/#jobs"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Philadelphia",
     "remote": false,
     "title": "Mobile Applications Developer",
     "url": "http://www.bresslergroup.com/about/#jobs"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Philadelphia",
     "remote": false,
     "title": "Electrical Engineer",
     "url": "http://www.bresslergroup.com/about/#jobs"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Philadelphia",
     "remote": false,
     "title": "Software/Firmware Developer",
     "url": "http://www.bresslergroup.com/about/#jobs"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Philadelphia",
     "remote": false,
     "title": "Industrial Design Internship",

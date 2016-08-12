@@ -1,35 +1,53 @@
 [
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "King of Prussia",
     "remote": true,
     "title": "Inbound Marketing Manager Position",
     "url": "http://www.arcintermedia.com/company/careers/inbound-marketing-manager/"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "King of Prussia",
     "remote": true,
     "title": "Junior Front-end Web Developer/Web Designer",
     "url": "http://www.arcintermedia.com/company/careers/entry-level-htmlweb-designer/"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "King of Prussia",
     "remote": true,
     "title": "Senior Level SEO Position",
     "url": "http://www.arcintermedia.com/company/careers/senior-level-seo-position/"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "King of Prussia",
     "remote": true,
     "title": "Entry-Mid Level SEO Position",
     "url": "http://www.arcintermedia.com/company/careers/entry-mid-level-seo-position/"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "King of Prussia",
     "remote": true,
     "title": "Part-time Experienced SEO Professional",
     "url": "http://www.arcintermedia.com/company/careers/part-time-experienced-seo-professional/"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "King of Prussia",
     "remote": true,
     "title": "Umbraco ASP.NET Developer",

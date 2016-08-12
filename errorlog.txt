@@ -122,3 +122,63 @@ Cannot read property 'innerText' of undefined
 Arc Intermedia
 Cannot read property 'innerText' of undefined
 08/12/2016 14:36:47
+-----------------------------------------------
+1 Trick Pony
+datePosted is not defined
+08/12/2016 16:53:33
+-----------------------------------------------
+1 Trick Pony
+dateTime is not defined
+08/12/2016 16:54:51
+-----------------------------------------------
+1 Trick Pony
+require is not defined
+08/12/2016 16:55:31
+-----------------------------------------------
+1 Trick Pony
+year is not defined
+08/12/2016 16:56:31
+-----------------------------------------------
+1 Trick Pony
+Year is not defined
+08/12/2016 16:58:22
+-----------------------------------------------
+1 Trick Pony
+Year is not defined
+08/12/2016 16:58:42
+-----------------------------------------------
+1 Trick Pony
+Year is not defined
+08/12/2016 17:00:08
+-----------------------------------------------
+1 Trick Pony
+dt.format is not a function
+08/12/2016 17:00:18
+-----------------------------------------------
+1 Trick Pony
+dt.format is not a function
+08/12/2016 17:04:38
+-----------------------------------------------
+1 Trick Pony
+date is not defined
+08/12/2016 17:10:47
+-----------------------------------------------
+1 Trick Pony
+Date.getDate is not a function
+08/12/2016 17:13:00
+-----------------------------------------------
+1 Trick Pony
+this is not a Date object.
+08/12/2016 17:13:16
+-----------------------------------------------
+1 Trick Pony
+date is not defined
+08/12/2016 17:15:00
+-----------------------------------------------
+1 Trick Pony
+date is not defined
+08/12/2016 17:18:40
+-----------------------------------------------
+1 Trick Pony
+dt.getDt is not a function
+08/12/2016 17:19:29

@@ -1,17 +1,26 @@
 [
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Philadelphia",
     "remote": false,
     "title": "Senior Copywriter »",
     "url": "http://www.brownsteingroup.com/careers/#senior-copywriter"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Philadelphia",
     "remote": false,
     "title": "Director of Client Services »",
     "url": "http://www.brownsteingroup.com/careers/#director-client-services"
   },
   {
+    "@context": "http://schema.org",
+    "@type": "JobPosting",
+    "datePosted": "2016-7-12",
     "jobLocation": "Philadelphia",
     "remote": false,
     "title": "Internships »",
