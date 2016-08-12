@@ -1,0 +1,32 @@
+-----------------------------------------------
+Allen & Gerritsen
+Cannot read property 'innerText' of undefined
+08/12/2016 09:56:06
+-----------------------------------------------
+BrickSimple LLC
+Error: .wait() timed out after 30000msec
+08/12/2016 09:56:06
+-----------------------------------------------
+Allen & Gerritsen
+Cannot read property 'innerText' of undefined
+08/12/2016 10:06:43
+-----------------------------------------------
+BrickSimple LLC
+Error: .wait() timed out after 30000msec
+08/12/2016 10:06:43
+-----------------------------------------------
+Allen & Gerritsen
+Cannot read property 'innerText' of undefined
+08/12/2016 10:14:33
+-----------------------------------------------
+BrickSimple LLC
+Error: .wait() timed out after 30000msec
+08/12/2016 10:14:33
+-----------------------------------------------
+Allen & Gerritsen
+Cannot read property 'innerText' of undefined
+08/12/2016 10:20:49
+-----------------------------------------------
+BrickSimple LLC
+Error: .wait() timed out after 30000msec
+08/12/2016 10:20:49
