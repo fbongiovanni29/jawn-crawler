@@ -1,26 +1,31 @@
 [
   {
     "jobLocation": "Philadelphia",
+    "remote": false,
     "title": "",
     "url": "http://bulogics.com/wp-content/uploads/2013/05/IMG_0241.jpg"
   },
   {
     "jobLocation": "Philadelphia",
+    "remote": false,
     "title": "Integration Engineer",
     "url": "http://bulogics.com/about-us/jobs/integration-engineer/"
   },
   {
     "jobLocation": "Philadelphia",
+    "remote": false,
     "title": "Lead Firmware Engineer",
     "url": "http://bulogics.com/about-us/jobs/lead-firmware-engineer/"
   },
   {
     "jobLocation": "Philadelphia",
+    "remote": false,
     "title": "Firmware Developer",
     "url": "http://bulogics.com/about-us/jobs/firmware-developer/"
   },
   {
     "jobLocation": "Philadelphia",
+    "remote": false,
     "title": "Cross-Platform Developer",
     "url": "http://bulogics.com/about-us/jobs/cross-platform-developer/"
   }

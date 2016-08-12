@@ -1,31 +1,37 @@
 [
   {
     "jobLocation": "Wilmington",
+    "remote": false,
     "title": "ACCOUNT EXECUTIVE",
     "url": "https://archergroup.bamboohr.com/jobs/view.php?id=33"
   },
   {
     "jobLocation": "Wilmington",
+    "remote": false,
     "title": "FRONT END DEVELOPER",
     "url": "https://archergroup.bamboohr.com/jobs/view.php?id=34"
   },
   {
     "jobLocation": "Wilmington",
+    "remote": false,
     "title": "APPLICATION DEVELOPER",
     "url": "https://archergroup.bamboohr.com/jobs/view.php?id=9"
   },
   {
     "jobLocation": "Wilmington",
+    "remote": false,
     "title": "SENIOR APPLICATION DEVELOPER",
     "url": "https://archergroup.bamboohr.com/jobs/view.php?id=13"
   },
   {
     "jobLocation": "Wilmington",
+    "remote": false,
     "title": "SENIOR SITECORE DEVELOPER",
     "url": "https://archergroup.bamboohr.com/jobs/view.php?id=29"
   },
   {
     "jobLocation": "Wilmington",
+    "remote": false,
     "title": "MID-LEVEL UX DESIGNER",
     "url": "https://archergroup.bamboohr.com/jobs/view.php?id=32"
   }

@@ -1,11 +1,13 @@
 [
   {
     "jobLocation": "Philadelphia",
+    "remote": false,
     "title": "SENIOR ELECTRICAL ENGINEER",
     "url": "http://www.biomeme.com/careers"
   },
   {
     "jobLocation": "Philadelphia",
+    "remote": false,
     "title": "SENIOR MOLECULAR BIOLOGIST",
     "url": "http://www.biomeme.com/careers"
   }

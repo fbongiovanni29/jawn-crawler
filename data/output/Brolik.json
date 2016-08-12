@@ -1,6 +1,7 @@
 [
   {
     "jobLocation": "Philadelphia",
+    "remote": false,
     "title": "Web Developer",
     "url": "http://brolik.com/careers"
   }

@@ -22,6 +22,7 @@ function crawl(data, cb) {
       query = document.querySelectorAll(data.query) // Job title query
       links = document.querySelectorAll(data.link)  // Link query
       locations = document.querySelectorAll(data.locations) // Location query
+      remote = document.querySelectorAll(data.remote) // Location query
       /* Set query and link equal to all elements with selector
       itearte through appending text (innerText) from each element
       with job url to obj*/
@@ -34,7 +35,7 @@ function crawl(data, cb) {
       var i
       for (i = 0; i < query.length - x; i++) {
 	  var obj = new Object()
-	  // if location is static or locations attribute contains correct location (e.g string locations contains "Philadelphia" not "San Francisco")
+	// if location is static or locations attribute contains correct location (e.g string locations contains "Philadelphia" not "San Francisco")
 	if ("locations" in data === false || locations[i].innerText.trim() !== undefined && locations[i].innerText.trim().includes(data.parseLocation)){
 	    obj.title =  query[i].innerText.trim()
 	  // If jobLocation is static (created in input JSON) else add location based on HTML element that contains location
@@ -42,6 +43,14 @@ function crawl(data, cb) {
 	    obj.jobLocation = data.jobLocation
 	  } else {
 	    obj.location = locations[i].innerText.trim()
+	  }
+	  // Default remote to false, true if if JSON val is true, if string includes parser true otherwise false
+	  if ("remote" in data === false) {
+	      obj.remote = false
+	  } else if (data.remote === true || remote[i].innerText.trim().includes(data.parseRemote)) {
+	      obj.remote = true
+	  } else {
+	      obj.remote = false
 	  }
 	  // if url is picked up by HTML element or is declared in JSON
 	  if (data.link !== null) {

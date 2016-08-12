@@ -1,11 +1,13 @@
 [
   {
     "jobLocation": "plymouth",
+    "remote": false,
     "title": "Network Administrator",
     "url": "https://www.alura.com/job/network-administrator.php"
   },
   {
     "jobLocation": "plymouth",
+    "remote": false,
     "title": "Business Development Manager",
     "url": "https://www.alura.com/job/business-development-manager.php"
   }

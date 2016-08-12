@@ -46,3 +46,79 @@ Cannot read property 'innerText' of undefined
 BrickSimple LLC
 Error: .wait() timed out after 30000msec
 08/12/2016 10:28:39
+-----------------------------------------------
+Boomi
+remote is not defined
+08/12/2016 11:52:50
+-----------------------------------------------
+1 Trick Pony
+Cannot read property 'innerText' of undefined
+08/12/2016 12:07:31
+-----------------------------------------------
+1 Trick Pony
+Cannot read property 'innerText' of undefined
+08/12/2016 12:19:42
+-----------------------------------------------
+1 Trick Pony
+Cannot read property 'innerText' of undefined
+08/12/2016 12:20:28
+-----------------------------------------------
+Boomi
+Cannot read property 'trim' of undefined
+08/12/2016 12:41:38
+-----------------------------------------------
+Boomi
+Cannot read property 'trim' of undefined
+08/12/2016 12:41:59
+-----------------------------------------------
+Boomi
+True is not defined
+08/12/2016 12:46:06
+-----------------------------------------------
+Boomi
+Cannot read property 'trim' of undefined
+08/12/2016 12:51:44
+-----------------------------------------------
+Boomi
+Cannot read property 'trim' of undefined
+08/12/2016 12:52:17
+-----------------------------------------------
+Arc Intermedia
+Cannot read property 'innerText' of undefined
+08/12/2016 13:09:07
+-----------------------------------------------
+Arc Intermedia
+Cannot read property 'innerText' of undefined
+08/12/2016 13:10:46
+-----------------------------------------------
+Arc Intermedia
+Cannot read property 'innerText' of undefined
+08/12/2016 13:14:25
+-----------------------------------------------
+Arc Intermedia
+Cannot read property 'innerText' of undefined
+08/12/2016 14:20:40
+-----------------------------------------------
+Boomi
+chalk is not defined
+08/12/2016 14:29:33
+-----------------------------------------------
+Arc Intermedia
+Cannot read property 'innerText' of undefined
+08/12/2016 14:34:00
+-----------------------------------------------
+Arc Intermedia
+Cannot read property 'innerText' of undefined
+08/12/2016 14:35:15
+-----------------------------------------------
+Arc Intermedia
+Cannot read property 'innerText' of undefined
+08/12/2016 14:35:48
+-----------------------------------------------
+Arc Intermedia
+Cannot read property 'innerText' of undefined
+08/12/2016 14:36:23
+-----------------------------------------------
+Arc Intermedia
+Cannot read property 'innerText' of undefined
+08/12/2016 14:36:47

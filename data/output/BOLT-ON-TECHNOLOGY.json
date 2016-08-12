@@ -1,16 +1,19 @@
 [
   {
     "jobLocation": "South Hampton",
+    "remote": false,
     "title": "Customer Experience / Retention Specialist",
     "url": "http://boltontechnology.com/customer-experience-retention-specialist/"
   },
   {
     "jobLocation": "South Hampton",
+    "remote": false,
     "title": "Customer Support Technician",
     "url": "http://boltontechnology.com/customer-support-technician/"
   },
   {
     "jobLocation": "South Hampton",
+    "remote": false,
     "title": "Microsoft Software Developer",
     "url": "http://boltontechnology.com/microsoft-software-developer/"
   }

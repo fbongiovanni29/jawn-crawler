@@ -1,10 +1,12 @@
 [
   {
     "jobLocation": "Philadelphia",
+    "remote": false,
     "title": "FRONT END ENGINEER"
   },
   {
     "jobLocation": "Philadelphia",
+    "remote": false,
     "title": "FULL STACK ENGINEER"
   }
 ]

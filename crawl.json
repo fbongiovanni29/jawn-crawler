@@ -38,6 +38,7 @@
     "company": "Arc Intermedia",
     "url": "http://www.arcintermedia.com/company/careers/",
     "jobLocation": "King of Prussia",
+    "remote": true,
     "query": ".push_one a",
     "link": ".push_one a"
   },
@@ -93,9 +94,11 @@
   {
     "company": "Boomi",
     "url": "http://www.boomi.com/company/careers",
-      "jobLocation": "Berwyn",
+    "jobLocation": "Berwyn",
     "parseLocation": "Berwyn",
     "locations": ".location+ .location",
+    "parseRemote": "Remote",
+    "remote": "#available-jobs a",
     "query": "#available-jobs a",
     "link": "#available-jobs a"
   },
