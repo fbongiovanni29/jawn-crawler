@@ -182,3 +182,7 @@ date is not defined
 1 Trick Pony
 dt.getDt is not a function
 08/12/2016 17:19:29
+-----------------------------------------------
+AgileTrailblazers
+Cannot read property 'innerText' of undefined
+08/12/2016 17:43:48

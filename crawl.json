@@ -1,41 +1,57 @@
 [
   {
-    "company": "1 Trick Pony",
+    "filename": "1-Trick-Pony",
     "url": "http://1trickpony.com/jobs/",
     "jobLocation": "hammonton",
     "query": "div.job-listings>dt a",
     "link": "div.job-listings>dt a"
   },
   {
-    "company": "160over90",
+    "filename": "160over90",
     "url": "http://160over90.com/careers/",
     "jobLocation": "philadelphia",
     "query": ".clearfix~ .col-sm-6+ .col-sm-6 a , .col-sm-6:nth-child(4) a",
     "link": ".clearfix~ .col-sm-6+ .col-sm-6 a , .col-sm-6:nth-child(4) a"
   },
   {
-    "company": "50onRed",
+    "filename": "AWeber-Communications",
+    "url": "http://www.aweber.jobs/",
+    "jobLocation": "Chalfont",
+    "query": "td a",
+    "link": "td a"
+  },
+  {
+    "filename": "AgileTrailblazers",
+    "url": "https://agiletrailblazers.workable.com/",
+    "parseLocation": "Pennsylvania",
+    "locations": "li p",
+    "jobLocation": "King of Prussia",
+    "query": "#jobs a",
+    "link": "#jobs a"
+  },
+  {
+    "filename": "50onRed",
     "url": "http://50onred.com/careers/",
     "jobLocation": "philadelphia",
     "query": "div#engineering h3",
     "link": "div#engineering a"
   },
   {
-    "company": "Al Día",
+    "filename": "Al-Día",
     "url": "http://aldianews.com/pages/careers/34548",
     "jobLocation": "philadelphia",
     "query": ".ng-binding a",
     "link": ".ng-binding a"
   },
   {
-    "company": "Alura Business Solutions",
+    "filename": "Alura-Business-Solutions",
     "url": "https://www.alura.com/about.php",
     "jobLocation": "plymouth",
     "query": "#careers .thin-header",
     "link": "#careers .btn"
   },
   {
-    "company": "Arc Intermedia",
+    "filename": "Arc-Intermedia",
     "url": "http://www.arcintermedia.com/company/careers/",
     "jobLocation": "King of Prussia",
     "remote": true,
@@ -43,56 +59,49 @@
     "link": ".push_one a"
   },
   {
-    "company": "Archer Group",
+    "filename": "Archer-Group",
     "url": "http://www.archer-group.com/careers.html",
     "jobLocation": "Wilmington",
     "query": "h4>a",
     "link": "div>small>div:nth-child(3)>a"
   },
   {
-    "company": "AWeber Communications",
-    "url": "http://www.aweber.jobs/",
-    "jobLocation": "Chalfont",
-    "query": "td a",
-    "link": "td a"
-  },
-  {
-    "company": "baseklas",
+    "filename": "baseklas",
     "url": "http://baseklas.com/jobs/",
     "jobLocation": "Philadelphia",
     "query": "span strong",
     "link": null
   },
   {
-    "company": "Biomeme, Inc.",
+    "filename": "Biomeme-Inc",
     "url": "http://www.biomeme.com/careers",
     "jobLocation": "Philadelphia",
     "query": "a h3",
     "link": null
   },
   {
-    "company": "Blackfynn",
+    "filename": "Blackfynn",
     "url": "http://www.blackfynn.com/careers/",
     "jobLocation": "Philadelphia",
     "query": "h2 strong",
     "link": "h2 a strong"
   },
   {
-    "company": "Bluecadet",
+    "filename": "Bluecadet",
     "url": "http://www.bluecadet.com/contact/careers/",
     "jobLocation": "Philadelphia",
     "query": ".col-left .title",
     "link": "a.btn"
   },
   {
-    "company": "BOLT ON TECHNOLOGY",
+    "filename": "BOLT-ON-TECHNOLOGY",
     "url": "http://boltontechnology.com/category/careers/",
     "jobLocation": "South Hampton",
     "query": ".dslc-blog-post-title a",
     "link": ".dslc-blog-post-title a"
   },
   {
-    "company": "Boomi",
+    "filename": "Boomi",
     "url": "http://www.boomi.com/company/careers",
     "jobLocation": "Berwyn",
     "parseLocation": "Berwyn",
@@ -103,7 +112,7 @@
     "link": "#available-jobs a"
   },
   {
-    "company": "Braxton Science & Technology Group - PA",
+    "filename": "Braxton-Science-&-Technology-Group-PA",
     "url": "http://jobs.bstgllc.com/",
     "parseLocation": "Warminster",
     "locations": "td:nth-child(4)",
@@ -111,14 +120,14 @@
     "link": "td a"
   },
   {
-    "company": "BresslerGroup",
+    "filename": "BresslerGroup",
     "url": "http://www.bresslergroup.com/about/#jobs",
     "jobLocation": "Philadelphia",
     "query": ".job-title",
     "link": null
   },
   {
-    "company": "Braxton Science & Technology Group - NJ",
+    "filename": "Braxton-Science-&-Technology-Group-NJ",
     "url": "http://jobs.bstgllc.com/",
     "parseLocation": "NJ",
     "locations": "td:nth-child(4)",
@@ -126,7 +135,7 @@
     "link": "td a"
   },
   {
-    "company": "Brian Communications",
+    "filename": "Brian-Communications",
     "url": "https://www.briancom.com/careers",
     "parseLocation": "Conshohocken",
     "locations": "td.srJobListLocation",
@@ -134,28 +143,28 @@
     "link": null
   },
   {
-    "company": "Brio Solutions",
+    "filename": "Brio-Solutions",
     "url": "http://www.briosolutions.com/About/Careers.aspx",
     "jobLocation": "Fort Washington",
     "query": ".Content-row h2",
     "link": ".bttn-1c"
   },
   {
-    "company": "Brolik",
+    "filename": "Brolik",
     "jobLocation": "Philadelphia",
     "url": "http://brolik.com/careers",
     "query": ".centered-small h2",
     "link": null
   },
   {
-    "company": "Brownstein Group",
+    "filename": "Brownstein-Group",
     "url": "http://www.brownsteingroup.com/careers/",
     "jobLocation": "Philadelphia",
     "query": ".careers-list a",
     "link": ".careers-list a"
   },
   {
-    "company": "BTB Security",
+    "filename": "BTB-Security",
     "url": "http://www.btbsecurity.com/who-we-are/job-opportunities",
     "jobLocation": "Philadelphia",
     "parseLocation": "Philadelphia",
@@ -164,7 +173,7 @@
     "link": ".pi-link-dark"
   },
   {
-    "company": "BuLogics",
+    "filename": "BuLogics",
     "url": "http://bulogics.com/about-us/jobs/",
     "jobLocation": "Philadelphia",
     "query": "#content a",

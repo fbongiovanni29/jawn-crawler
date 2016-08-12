@@ -11,7 +11,7 @@ var nightmare = Nightmare({ show: false }) // true displays popup electron windo
 
 function crawl(data, cb) {
   // Visual output
-  console.log(chalk.blue("Starting: " + data.company))
+  console.log(chalk.blue("Starting: " + data.filename))
   var nightmare = new Nightmare()
   nightmare
     .goto(data.url) // go to JSON specified url
@@ -73,20 +73,20 @@ function crawl(data, cb) {
   .then(function (arr) {
     // Replace spaces with hyphen and write to json file
     console.log(arr)
-    var file = data.company.replace(/\s/g, "-")
+    var file = data.filename.replace(/\s/g, "-")
     file = './data/output/' + file + '.json'
     jsonfile.writeFile(file, arr, {spaces: 2}, function(err) {
       if (err) {
 	console.error(err)
       }
-    console.log(chalk.green('Finished: ' + data.company))
     })
+    console.log(chalk.green('Finished: ' + data.filename))
     cb()
   })
   .catch(function (error) {
     // Write error to log and print to console
-    logStream.write('-----------------------------------------------' + '\n' + data.company + '\n' + error + '\n' + dt + '\n')
-    console.log(chalk.red('Error: ' + data.company + '\n' + error))
+    logStream.write('-----------------------------------------------' + '\n' + data.filename + '\n' + error + '\n' + dt + '\n')
+    console.log(chalk.red('Error: ' + data.filename + '\n' + error))
     cb()
   })
 }
