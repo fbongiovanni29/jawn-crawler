@@ -28,14 +28,6 @@
     "link": ".ng-binding a"
   },
   {
-    "company": "Allen & Gerritsen",
-    "url": "http://www.a-g.com/careers/",
-    "parseLocation": "Philadelphia",
-    "locations": ".columns+ .columns h2",
-    "query": ".columns+ .columns h4",
-    "link": ".columns+ .columns .dark"
-  },
-  {
     "company": "Alura Business Solutions",
     "url": "https://www.alura.com/about.php",
     "jobLocation": "plymouth",
@@ -135,13 +127,6 @@
     "url": "https://www.briancom.com/careers",
     "parseLocation": "Conshohocken",
     "locations": "td.srJobListLocation",
-    "query": "td.srJobListJobTitle",
-    "link": null
-  },
-  {
-    "company": "BrickSimple LLC",
-    "url": "http://bricksimple.com/",
-    "jobLocation": "Doylestown",
     "query": "td.srJobListJobTitle",
     "link": null
   },
