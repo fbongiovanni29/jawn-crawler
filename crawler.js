@@ -22,11 +22,17 @@ function crawl(data, cb) {
       query = document.querySelectorAll(data.query) // Job title query
       links = document.querySelectorAll(data.link)  // Link query
       locations = document.querySelectorAll(data.locations) // Location query
-	/* Set query and link equal to all elements with selector
-	itearte through appending text (innerText) from each element
-	with job url to obj*/
-      var i;
-      for (i = 0; i < query.length; i++) {
+      /* Set query and link equal to all elements with selector
+      itearte through appending text (innerText) from each element
+      with job url to obj*/
+      // If last element(s) with same query are not jobs
+      if ("amtExtraElements" in data === false) {
+	  var x = 0
+      } else {
+	  var x = data.amtExtraElements
+      }
+      var i
+      for (i = 0; i < query.length - x; i++) {
 	  var obj = new Object()
 	  // if location is static or locations attribute contains correct location (e.g string locations contains "Philadelphia" not "San Francisco")
 	if ("locations" in data === false || locations[i].innerText.trim() !== undefined && locations[i].innerText.trim().includes(data.parseLocation)){
@@ -51,6 +57,7 @@ function crawl(data, cb) {
   .end()
   .then(function (arr) {
     // Replace spaces with hyphen and write to json file
+    console.log(arr)
     var file = data.company.replace(/\s/g, "-")
     file = './data/output/' + file + '.json'
     jsonfile.writeFile(file, arr, {spaces: 2}, function(err) {

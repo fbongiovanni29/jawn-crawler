@@ -150,5 +150,22 @@
     "jobLocation": "Philadelphia",
     "query": ".careers-list a",
     "link": ".careers-list a"
+  },
+  {
+    "company": "BTB Security",
+    "url": "http://www.btbsecurity.com/who-we-are/job-opportunities",
+    "jobLocation": "Philadelphia",
+    "parseLocation": "Philadelphia",
+    "locations": ".pi-link-dark",
+    "query": ".pi-link-dark",
+    "link": ".pi-link-dark"
+  },
+  {
+    "company": "BuLogics",
+    "url": "http://bulogics.com/about-us/jobs/",
+    "jobLocation": "Philadelphia",
+    "query": "#content a",
+    "link": "#content a",
+    "amtExtraElements": 1
   }
 ]
